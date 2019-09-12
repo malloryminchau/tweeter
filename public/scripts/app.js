@@ -5,7 +5,6 @@
  */
 
 function createTweetElement(tweet) {
-
     const newTweet = `
       <article class="tweet-container"> 
         <header class="tweet-header">
@@ -30,15 +29,6 @@ function createTweetElement(tweet) {
 }
 
 
-// Test / driver code (temporary). Eventually will get this from the server.
-
-
-// const $tweet = createTweetElement(tweetData);
-
-// Test / driver code (temporary)
-// console.log($tweet); // to see what it looks like
- // to add it to the page so we can make sure it's got all the right elements, classes, etc.
-
 function renderTweets(newTweet) {
   for (let tweet of newTweet) {
     let $newTweet = createTweetElement(tweet)
@@ -55,12 +45,10 @@ function addNewTweet() {
     console.log(data)
     $('#all-tweets').prepend(createTweetElement(data[data.length-1]))
   })
-  
 }
 
 
 $(document).ready(() => {
-
   $('#collapse-button').on('click', (event) => {
     event.preventDefault();
     $("#collapse-me").slideToggle();
@@ -87,8 +75,7 @@ $(document).ready(() => {
         }
       })
       $('.tweet-text').val('');
-    }
-    
+    }  
   })
   loadTweets()
 })
