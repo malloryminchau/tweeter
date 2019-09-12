@@ -4,7 +4,6 @@ article { /* only the border */
 }
 
 
-
 .tweet-container { /* the size of the container the tweet stuff exists in */
   width: 100%;
   height: 100%;
@@ -18,6 +17,9 @@ article { /* only the border */
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 20px;
+}
+.tweet-header:hover {
+  font-style: bold;
 }
 
 .img-name-container {
@@ -38,10 +40,12 @@ article { /* only the border */
 
 article:hover{
   box-shadow: 5px 5px #7d9dc2;
+  font-weight: bold;
 }
 
 article:hover .username{
   color: #545149;
+  opacity: 0.5;
 }
 
 article .text { /* only the text within the tweet text box */ 
@@ -56,8 +60,12 @@ article .text { /* only the text within the tweet text box */
   font-weight: bold;
   color: #545149;
   width: 98%;
-  margin: auto;
+  padding-bottom: 5px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
 }
+
 
 .tweet-footer { /* date time stamp and the like retweet and flag icons */
   text-indent: 10px;

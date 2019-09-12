@@ -4,7 +4,9 @@ nav {
   padding: 1.5em 1.5em;
   background-color: #4056A1;
   height: 120px;
+  width: 100%;
   z-index: auto;
+  position: fixed;
 }
 
 nav .tweeter {
@@ -13,5 +15,9 @@ nav .tweeter {
 }
 
 nav .write-tweet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   float: right;
 }
+
