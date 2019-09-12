@@ -1,0 +1,72 @@
+article { /* only the border */
+  border: 4px solid #545149;
+  padding: 20px;
+}
+
+
+
+.tweet-container { /* the size of the container the tweet stuff exists in */
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+}
+
+.tweet-header { /* aligns the items vertically */
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img-name-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.tweet-header span.real-name {
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.tweet-header span.username {
+  color: #f4f1ec;
+
+}
+
+article:hover{
+  box-shadow: 5px 5px #7d9dc2;
+}
+
+article:hover .username{
+  color: #545149;
+}
+
+article .text { /* only the text within the tweet text box */ 
+  display: flex;
+  align-items: center;
+  text-indent: 5px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 4px solid #545149;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  color: #545149;
+  width: 98%;
+  margin: auto;
+}
+
+.tweet-footer { /* date time stamp and the like retweet and flag icons */
+  text-indent: 10px;
+  font-family: "Source Sans Pro";
+  font-size: 0.7em;
+  color: #545149
+}
+
+.icons {
+  float: right;
+}
+

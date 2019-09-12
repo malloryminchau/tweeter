@@ -1,0 +1,17 @@
+
+nav {
+  color: #FFFFFF;
+  padding: 1.5em 1.5em;
+  background-color: #4056A1;
+  height: 120px;
+  z-index: auto;
+}
+
+nav .tweeter {
+  text-align: left;
+  font-family: 'Bungee', 'sans-serif';
+}
+
+nav .write-tweet {
+  float: right;
+}

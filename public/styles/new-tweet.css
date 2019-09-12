@@ -1,0 +1,32 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.tweet-text {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  resize: none;
+  border-bottom: 4px solid #545149;
+  font-weight: bold;
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  color: #545149;
+  width: 100%;
+}
+
+.tweet-button {
+  font-family: 'Bungee', 'sans-serif';
+  background-color: #4056A1;
+  color: #FFFFFF;
+}
+
+.counter {
+  float: right;
+  font-family: 'Bungee', 'sans-serif';
+}
+
+
+/* css for tweets after submit is clicked */
+

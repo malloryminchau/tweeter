@@ -1,0 +1,12 @@
+.top-header {
+  background-color: lightgreen;
+  height: 400px;
+  width: 100%;
+  background-color: #00d9e0;
+  background-image: url("https://www.transparenttextures.com/patterns/black-scales.png");
+}
+
+.your-name {
+  display: flex;
+  justify-content: center;
+}
