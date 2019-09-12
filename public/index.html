@@ -38,7 +38,11 @@
     <!-- Top nav bar (fixed) -->
     <nav>
       <span class="tweeter" font-family="Bungee">tweeter</span>
-      <span class="write-tweet">Write a new tweet</span>
+      <div class="write-tweet">
+        <span>Write a new tweet</span>
+        <button data-toggle="collapse" data-target="#collapse-me">Collapsible</button>
+      </div>
+      
     </nav>
 
 
@@ -55,7 +59,7 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-
+      <div id="collapse-me" class="collapse">
         <section class="new-tweet">
             <h2>Compose Tweet</h2>
             <form class="tweet-form" method="POST" action="/tweets">
@@ -63,7 +67,9 @@
               <input class="tweet-button" type="submit" value="Tweet" href>
               <span class="counter">140</span>
             </form>
-          </section>
+        </section>
+      </div>
+        
 
           <section id="all-tweets">
           </section>
