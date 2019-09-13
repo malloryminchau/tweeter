@@ -15,3 +15,12 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+
+![Alt text](https://github.com/malloryminchau/tweeter/docs/default-page.png "Home page upon loading the app")
+
+![Alt text](https://github.com/malloryminchau/tweeter/docs/compose-tweet-toggle.png "Toggle button (red arrows underneath write a new tweet) brings a text area into view")
+
+![Alt text](https://github.com/malloryminchau/tweeter/docs/tweet-too-long-error.png "When a tweet written in the text area exceeds 140 charcters ")
+
